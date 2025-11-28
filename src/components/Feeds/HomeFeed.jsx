@@ -1,4 +1,4 @@
-import NavigateInHome from "@/components/Navigation/NavigateInHome";
+import NavigateInHome from "@/components/Layout/Navigation/NavigateInHome";
 import PostLists from "@/components/Posts/PostLists";
 import { useEffect, useState } from "react";
 import { Spinner } from "@/components/ui/spinner";

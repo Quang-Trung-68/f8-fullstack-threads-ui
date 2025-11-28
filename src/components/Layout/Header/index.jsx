@@ -1,7 +1,7 @@
 import { ChartBarIncreasing } from "lucide-react";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 import { useLocation, useNavigate } from "react-router";
-import { NavigationModal } from "../Modals/NavigationModal";
+import { NavigationModal } from "@/components/Modals/NavigationModal";
 import { ROUTES } from "@/routes";
 
 export default function Header() {

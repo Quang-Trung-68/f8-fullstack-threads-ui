@@ -1,6 +1,6 @@
 import { ROUTES } from "@/routes";
 import { NavLink, useNavigate } from "react-router";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 import { ChartBarIncreasing } from "lucide-react";
 
 export default function Navigation() {

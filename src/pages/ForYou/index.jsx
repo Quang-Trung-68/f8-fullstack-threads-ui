@@ -1,4 +1,4 @@
-import NavigateInHome from "@/components/Navigation/NavigateInHome";
+import NavigateInHome from "@/components/Layout/Navigation/NavigateInHome";
 import PostLists from "@/components/Posts/PostLists";
 import { Spinner } from "@/components/ui/spinner";
 import React, { useEffect, useState } from "react";
@@ -6,7 +6,6 @@ import React, { useEffect, useState } from "react";
 export default function ForYou() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
-
   useEffect(() => {
     const fetchPosts = async () => {
       try {

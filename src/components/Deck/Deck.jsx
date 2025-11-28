@@ -66,7 +66,7 @@ export default function Deck() {
             feedComponent={getInitialComponent(columns[0].type)}
             isScrollable={true}
           />
-          <div className="sticky top-1/2 h-fit -translate-y-1/2 -ml-2">
+          <div className="sticky top-1/2 -ml-2 h-fit -translate-y-1/2">
             <AddColumnButton />
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function Deck() {
               isScrollable={true}
             />
           ))}
-          <div className="flex h-full items-center -ml-2">
+          <div className="-ml-2 flex h-full items-center">
             <AddColumnButton />
           </div>
         </div>

@@ -1,6 +1,6 @@
 import { Outlet, useLocation } from "react-router";
-import Header from "@components/Header";
-import Navigation from "@/components/Navigation";
+import Header from "@components/Layout/Header";
+import Navigation from "@/components/Layout/Navigation";
 import CreatePostButton from "@/components/Create/CreatePostButton";
 
 export default function DefaultLayout() {

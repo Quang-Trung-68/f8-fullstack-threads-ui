@@ -28,7 +28,7 @@ export default function AddColumnButton() {
   ];
 
   return (
-    <div className="flex h-full items-center justify-center px-4">
+    <div className="flex h-full items-center justify-center">
       <DropdownMenu>
         <TooltipProvider>
           <Tooltip>
